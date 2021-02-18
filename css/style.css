@@ -1,6 +1,10 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    color: blueviolet;
     font-size: x-large;
+}
+header {
+    background-color: azure;
+    color: rgb(90, 87, 87);
 }
