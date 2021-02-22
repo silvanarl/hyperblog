@@ -4,13 +4,20 @@ body {
     color: rgb(68, 68, 67);
     font-size: x-large;
 }
+.container {
+    border: 1px solid rgb(108, 108, 110);
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+
+}
 header {
     display: flex;
     background-color: rgb(135, 137, 241);
     color: rgb(255, 255, 255);
     padding: 1rem .2rem;
-    /* justify-content: center;
-    text-align: center; */
+    justify-content: space-around;
+    text-align: center; 
 }
 header h1{
     margin: 0;
@@ -20,11 +27,4 @@ header h1{
 header span {
     font-size: 18px;
     justify-content: right;
-}
-.container {
-    border: 1px solid rgb(108, 108, 110);
-    padding: 1rem;
-    width: 70%;
-    margin: auto;
-
 }
